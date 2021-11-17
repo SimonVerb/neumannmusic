@@ -170,7 +170,7 @@ window.onscroll = magic
 
 $(function() {  
    $("body").niceScroll({
-      mousescrollstep: 10,
+      mousescrollstep: 15,
       zindex: "1"
    });
 });
