@@ -123,7 +123,7 @@ audio.addEventListener('timeupdate', updateProgress)
 
 function playSong() {
    player.classList.add('play')
-   imgSrc.src = "../images/pause.svg"
+   imgSrc.src = "../images/pause.png"
    audio.play()
 }
 
@@ -170,7 +170,7 @@ window.onscroll = magic
 
 $(function() {  
    $("body").niceScroll({
-      mousescrollstep: 20,
+      mousescrollstep: 10,
       zindex: "1"
    });
 });
